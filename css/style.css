@@ -665,7 +665,7 @@ img {
 }
 
 .main-text__subtitle {
-  width: 472px;
+  max-width: 472px;
   margin-top: 32px;
   font-weight: 400;
   font-size: 24px;
@@ -698,13 +698,6 @@ img {
     -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
             order: -1;
-    width: 412px;
-    height: 346px;
-    border-radius: 32px;
-  }
-  .main-content__img {
-    top: 26px;
-    width: 300px;
   }
 }
 
@@ -722,13 +715,7 @@ img {
     margin-top: 24px;
   }
   .main-content {
-    width: 288px;
-    height: 241px;
-  }
-  .main-content__img {
-    top: 20px;
-    left: 35px;
-    width: 209px;
+    width: 161px;
   }
 }
 
