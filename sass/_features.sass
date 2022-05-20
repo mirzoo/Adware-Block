@@ -1,0 +1,79 @@
+.features
+    &-wrap
+        display: flex
+        flex-direction: column
+        padding: 0px 16px
+    &-title
+        font-weight: 800
+        font-size: 56px
+        line-height: 66px
+        text-align: center
+        color: #32B538
+    &-items
+        display: flex
+        justify-content: space-between
+        align-content: center
+        margin-top: 50px
+        &__block
+            position: relative
+            display: flex
+            flex-direction: column
+            width: 350px
+            height: 330px
+            background: #32B538
+            border-radius: 32px
+            overflow: hidden
+        &__title
+            margin-top: 27px
+            padding: 0px 32px
+            font-weight: 700
+            font-size: 28px
+            line-height: 33px
+            color: #FFFFFF
+            opacity: 50%
+        &__image
+            position: absolute
+            top: 120px
+            left: 25%
+            max-width: 65%
+
+
+
+@media (max-width: 1024px)
+    .features
+        &-items
+            &__block
+                width: 300px
+            &__image
+                left: 20%
+
+@media (max-width: 768px)
+    .features
+        &-items
+            flex-direction: column
+            align-items: center
+            &__block
+                margin-top: 28px
+                width: 412px
+            &__title
+                text-align: center
+            &__image
+                left: 25%
+
+
+@media (max-width: 425px)
+    .features
+        &-title
+                font-size: 32px
+                line-height: 38px
+        &-items
+            flex-direction: column
+            align-items: center
+            &__block
+                margin-top: 28px
+                width: 288px
+            &__title
+                font-size: 18px
+                text-align: center
+            &__image
+                left: 25%
