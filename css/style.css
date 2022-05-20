@@ -343,7 +343,7 @@ template {
 
 body {
   font-family: 'Roboto';
-  background-color: #ffffff;
+  background-color: #080B13;
 }
 
 .container {
@@ -371,7 +371,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #fff;
+  background: #080B13;
   z-index: 4;
 }
 
@@ -409,7 +409,7 @@ img {
 }
 
 .header-link {
-  color: #000000;
+  color: #ffffff;
   font-size: 14px;
   text-decoration: none;
   font-weight: 400;
@@ -419,7 +419,7 @@ img {
 }
 
 .header-link:hover {
-  color: #32B538;
+  color: #1ECECE;
 }
 
 .header-burger {
@@ -435,7 +435,7 @@ img {
     overflow: hidden;
   }
   .header-wrap {
-    min-height: 50px;
+    min-height: 80px;
   }
   .header-menu {
     position: fixed;
@@ -443,7 +443,7 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #f1f1f1;
+    background-color: #131a2e;
     z-index: 3;
     padding: 100px 0 0 0;
     -webkit-transition: 0.3s;
@@ -467,7 +467,7 @@ img {
     -webkit-transition: 0.3s;
     transition: 0.3s;
     content: '';
-    background-color: #192028;
+    background-color: #ffffff;
     position: absolute;
     width: 100%;
     height: 2px;
@@ -482,7 +482,7 @@ img {
     -webkit-transition: 0.3s;
     transition: 0.3s;
     position: absolute;
-    background-color: #192028;
+    background-color: #ffffff;
     left: 0;
     width: 100%;
     height: 2px;
