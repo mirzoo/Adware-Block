@@ -734,15 +734,18 @@ img {
 }
 
 .privacy__title {
+  color: #1ECECE;
   font-size: 32px;
 }
 
 .privacy__subtitle {
+  color: #ffffff;
   font-size: 18px;
   font-weight: normal;
 }
 
 .privacy p {
+  color: #1ECECE;
   font-size: 24px;
   font-weight: 600;
 }
