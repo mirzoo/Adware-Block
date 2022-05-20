@@ -755,15 +755,18 @@ img {
 }
 
 .terms__title {
+  color: #1ECECE;
   font-size: 32px;
 }
 
 .terms__subtitle {
+  color: #ffffff;
   font-size: 18px;
   font-weight: normal;
 }
 
 .terms p {
+  color: #1ECECE;
   font-size: 24px;
   font-weight: 600;
 }
